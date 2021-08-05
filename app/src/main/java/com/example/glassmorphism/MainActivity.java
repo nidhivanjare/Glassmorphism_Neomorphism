@@ -50,32 +50,32 @@ public class MainActivity extends AppCompatActivity {
 
     // Checking if the input in form is valid
     boolean validateInput() {
-        if (etFirstName.getText().toString().equals("")) {
-            etFirstName.setError("Please Enter First Name");
-            return false;
-        }
-        if (etLastName.getText().toString().equals("")) {
-            etLastName.setError("Please Enter Last Name");
-            return false;
-        }
-        if (etEmail.getText().toString().equals("")) {
-            etEmail.setError("Please Enter Email");
-            return false;
-        }
-        if (etContactNo.getText().toString().equals("")) {
-            etContactNo.setError("Please Enter Contact No");
-            return false;
-        }
-        if (etDec.getText().toString().equals("")) {
-            etDec.setError("Please Enter Designation ");
-            return false;
-        }
-
-        // checking the proper email format
-        if (!isEmailValid(etEmail.getText().toString())) {
-            etEmail.setError("Please Enter Valid Email");
-            return false;
-        }
+//        if (etFirstName.getText().toString().equals("")) {
+//            etFirstName.setError("Please Enter First Name");
+//            return false;
+//        }
+//        if (etLastName.getText().toString().equals("")) {
+//            etLastName.setError("Please Enter Last Name");
+//            return false;
+//        }
+//        if (etEmail.getText().toString().equals("")) {
+//            etEmail.setError("Please Enter Email");
+//            return false;
+//        }
+//        if (etContactNo.getText().toString().equals("")) {
+//            etContactNo.setError("Please Enter Contact No");
+//            return false;
+//        }
+//        if (etDec.getText().toString().equals("")) {
+//            etDec.setError("Please Enter Designation ");
+//            return false;
+//        }
+//
+//        // checking the proper email format
+//        if (!isEmailValid(etEmail.getText().toString())) {
+//            etEmail.setError("Please Enter Valid Email");
+//            return false;
+//        }
 
         return true;
     }
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
             String desig = etDec.getEditableText().toString();
 
 
-            Intent intent = new Intent(getApplicationContext(), View_Page.class);
+            Intent intent = new Intent(getApplicationContext(), Neomorphism.class);
             intent.putExtra("name", final_str);
             intent.putExtra("email", email);
             intent.putExtra("contact", number);

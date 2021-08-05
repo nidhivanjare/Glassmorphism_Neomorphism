@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Glassmorphism">
+        <activity android:name=".Neomorphism"></activity>
         <activity android:name=".View_Page" />
         <activity android:name=".MainActivity">
             <intent-filter>
