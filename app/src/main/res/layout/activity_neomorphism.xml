@@ -5,7 +5,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/white"
+        android:background="#9dbbe3"
         android:layout_margin="10dp"
         android:clipChildren="false"
         tools:context=".Neomorphism">
@@ -16,7 +16,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginBottom="30dp"
-            app:background_color="#a4c639"
+            app:background_color="#9dbbe3"
             app:corner_radius="20dp"
             app:layout_constraintBottom_toTopOf="@id/secondBlock"
             app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
             android:layout_height="300dp"
             android:clipChildren="false"
             android:text="Hello World!"
-            app:background_color="#5fd8d1"
+            app:background_color="#9dbbe3"
             app:corner_radius="40dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -50,7 +50,7 @@
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
-                app:background_color="#a4c639"
+                app:background_color="#9dbbe3"
                 app:shape="circle"
                 app:state="pressed" />
 
@@ -68,7 +68,7 @@
             <com.borutsky.neumorphism.NeumorphicFrameLayout
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                app:background_color="#b57ee0"
+                app:background_color="#9dbbe3"
                 app:corner_radius="20dp"
                 app:shape="rectangle"
                 app:state="flat">
@@ -85,7 +85,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                app:background_color="#fca8de"
+                app:background_color="#9dbbe3"
                 app:corner_radius="20dp"
                 app:shape="rectangle"
                 app:state="concave">
@@ -102,7 +102,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                app:background_color="#f5ee66"
+                app:background_color="#9dbbe3"
                 app:corner_radius="20dp"
                 app:shape="rectangle"
                 app:state="convex">
